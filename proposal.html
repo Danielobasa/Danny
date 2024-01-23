@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Will You Be Mine?</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: lightpink;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+
+        #proposal-container {
+            max-width: 600px;
+            margin: 50px auto;
+            background-color: lightgreen;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: #333;
+        }
+
+        p {
+            color: #555;
+        }
+
+        #heart {
+            color: #e74c3c;
+        }
+
+        #response {
+            font-weight: bold;
+            color: #27ae60;
+        }
+    </style>
+</head>
+<body>
+
+    <div id="proposal-container">
+        <h1>Will You Be Mine?</h1>
+        <p>My Tequila,</p>
+        <p>I have something important to ask you...</p>
+        <p>Would you do me the honor of being mine, and mine only?</p>
+        <p>If your answer is yes, click the heart below:</p>
+        <span id="heart">&#10084;</span>
+        <p id="response"></p>
+    </div>
+
+    <script>
+        document.getElementById('heart').addEventListener('click', function() {
+            document.getElementById('response').innerText = 'Yes! I would love to be yours!';
+        });
+    </script>
+
+</body>
+</html>
