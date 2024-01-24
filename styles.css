@@ -1,8 +1,8 @@
 body {
     margin: 0;
     padding: 0;
-    background-color: #ffcccb;
-    font-family: Arial, sans-serif;
+    background-color: burlywood;
+    font-family: cursive;
 }
 
 .container {
@@ -19,7 +19,9 @@ body {
     padding: 15px;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: cursive;
+    font-weight: bold;
 }
 
 .reason1 { background-color: #ffcccb; }
@@ -33,10 +35,19 @@ body {
 .reason9 { background-color: #87ceeb; }
 .reason10 { background-color: #ffebcd; }
 
-
-.heart-emoji {
-    font-size: 50px;
+.head{
+    background-color: red;
+    text-align: center;
+    font-family: cursive;
 }
+
+.valentine-container {
+  max-width: 600px; /* Adjust the maximum width as needed */
+  text-align: center;
+  font-family: cursive;
+}
+
+
 
 .proposal-link {
     flex: 0 0 100%;
@@ -49,7 +60,7 @@ body {
     padding: 10px 20px;
     background-color: #4caf50;
     color: #fff;
-    text-decoration: none;
+    text-decoration: initial;
     border-radius: 5px;
     font-weight: bold;
     transition: background-color 0.3s ease;
@@ -57,4 +68,41 @@ body {
 
 .proposal-link a:hover {
     background-color: #45a049;
+}
+
+body {
+    background-color: #fce4ec; /* Light pink background */
+    font-family: 'Arial', sans-serif;
+}
+
+.valentine-epistle {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: hotpink; /* White box background */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: #333333; /* Dark text color */
+    font-family: cursive;
+}
+
+h1 {
+    color: #e91e63; /* Pink heading color */
+}
+
+button {
+    background-color: #e91e63; /* Pink button color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #c2185b; /* Darker pink on hover */
+}
 }
